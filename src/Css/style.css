@@ -1,0 +1,77 @@
+body{
+    background-color:#2E8B57;
+}
+html{
+    font-size:65.5%;
+    margin:0;
+    color:white;
+    border:none;
+    padding:0;
+}
+.Calculadora{
+    width:50%;
+    margin:10rem;
+    height:100%;
+}
+section{
+    width:10rem;
+    height:80rem;
+    text-align:center;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+}
+span{
+    background-color:#34465D;
+    font-family: monospace;
+    padding:8rem;
+    font-size:4rem;
+}
+.del{
+    grid-column:2 span;
+    background-color:#F89830;
+
+}
+input{
+    width:71.5rem;
+    padding-bottom:8rem;
+    font-family:monospace;
+    font-size:7rem;
+    text-align:right;
+    padding-top:8rem;
+}
+.igual{
+    grid-row:2 span;
+    background-color:#0091EA;
+    text-align:center;
+
+}
+.es{
+    position:relative;
+    text-align:center;
+    font-family:monospace;
+    top:50rem;
+    font-size:2rem;
+    background-color:white;
+    font-size:2rem;
+    width:60%;
+    height:30rem;
+    padding:2rem;
+    margin: 0 auto;
+    color:black;
+    border-radius:5px;
+}
+.es p{
+    font-size:2.5rem;
+}
+.es h1{
+    color:#4B0082;
+}
+span:active{
+    background-color:#FF1493;
+}
+@media (min-width:1080px) end (max-width:2080px){
+    body{
+        background-color:red;
+    }
+}

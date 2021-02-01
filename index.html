@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/Css/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <form class="Calculadora" action="" name="for">
+        <input class="box" type="text" name="txt">
+    <section>
+        <span onclick="document.for.txt.value =''"class='del'>D</span>
+        <span onclick="document.for.txt.value+='*'"id="vezes">x</span>
+        <span id="mas" onclick="document.for.txt.value+='+'">+</span>
+        <span onclick="document.for.txt.value+='1'"id="um">1</span>
+        <span onclick="document.for.txt.value+='2'" id="dois">2</span>
+        <span onclick="document.for.txt.value+='3'" value="3" id="tres">3</span>
+        <span onclick="document.for.txt.value+='-'" id="menos">-</span>
+        <span onclick="document.for.txt.value+='4'" id="quatro">4</span>
+        <span onclick="document.for.txt.value+='5'"id="cinco">5</span>
+            <span onclick="document.for.txt.value+='6'"id="seis">6</span>
+            <span onclick="document.for.txt.value+='/'" id="advidir">÷</span>
+            <span onclick="document.for.txt.value+='7'" id="sete">7</span>
+            <span onclick="document.for.txt.value+='9'" value="9"id="nove">9</span>
+            <span onclick="document.for.txt.value+='8'" id="oito">8</span>
+            <span onclick="document.for.txt.value = eval(document.for.txt.value)" class="igual"></span>
+            <span onclick="document.for.txt.value+='.'" id="ponto">.</span>
+            <span onclick="document.for.txt.value+='0'" id="zero">0</span>
+            <span class="info">#</span>
+    </section>
+        
+    </form>
+    
+<script src="/Script/script.js"></script>
+</body>
+</html>
