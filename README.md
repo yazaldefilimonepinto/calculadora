@@ -6,3 +6,6 @@ Essa calculadora em JavaScript fiz com objetivo de adquirir mas conhecimento nes
 
 **Minha primeira experiência com CSS Grid**
 
+Podes ver a calculadora neste site : [eCalculadora](https://yazaldefilimonepinto.github.io/calculadora/)
+
+Link : https://yazaldefilimonepinto.github.io/calculadora/
